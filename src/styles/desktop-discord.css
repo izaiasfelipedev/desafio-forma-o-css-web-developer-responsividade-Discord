@@ -1,0 +1,260 @@
+body {
+  display: grid;
+  grid-template-rows: 459px auto 134px;
+  grid-template-columns: 1280px;
+}
+
+header {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+header #background-header {
+  width: 100%;
+
+  content: url('/src/images/Header Background (1).svg');
+}
+
+header #header-content {
+  display: grid;
+  grid-template-rows: 112px 66px 44px;
+  row-gap: 24px;
+
+  justify-items: center;
+  align-items: center;
+
+  position: absolute;
+  top: 94px;
+
+}
+
+header #header-content #title-header {
+  width: 313px;
+}
+
+header #header-content #text-header {
+  width: 757px;
+}
+
+header #header-content #button-action {
+  width: 502px;
+  display: flex;
+  column-gap: 16px;
+}
+
+#header-content #title-header h2,
+main .section-4 h2 {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  text-align: center;
+}
+
+#header-content #title-header h2 {
+  font-size: 56px;
+
+  color: #FFFFFF;
+}
+
+main .section-4 h2 {
+  font-size: 40px;
+
+  color: #23272A;
+}
+
+#header-content #text-header .text,
+#header-content #button-action .text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+
+  text-align: center;
+}
+
+#header-content #text-header .text {
+  color: #FFFFFF;
+}
+
+#header-content #button-action #windows {
+  width: 205px;
+  height: 44px;
+  border-radius: 28px;
+
+  background-color: #FFFFFF;
+  color: #23272A;
+}
+
+#header-content #button-action #open-discord {
+  width: 281px;
+  height: 44px;
+  border-radius: 28px;
+
+  background-color: #23272A;
+  color: #FFFFFF;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 394px repeat(2, 448px) 744px;
+  padding-top: 40px;
+  row-gap: 40px;
+
+  justify-items: center;
+}
+
+.content .text-field .title-section {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
+
+  text-align: start;
+  color: #23272A;
+}
+
+.content .text-field .text-section {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  text-align: start;
+  color: #23272A;
+}
+
+main .content:not(:last-child) .image-content {
+  width: 607px;
+  height: 394px;
+}
+
+main .section-4 .image-content {
+  width: 784px;
+  height: 508px;
+}
+
+main .section-1 {
+  width: 971px;
+  height: auto;
+}
+
+main .section-2,
+main .section-3,
+main .section-4 {
+  width: 1280px;
+  height: auto;
+}
+
+main .section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .section-2,
+main .section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .section-2 {
+  flex-direction: row-reverse;
+
+  background-color: #F6F6F6;
+}
+
+main .section-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px 0;
+  row-gap: 16px;
+
+  background-color: #F6F6F6;
+}
+
+
+main .section-1 .text-field {
+  width: 348px;
+  height: 374px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .section-2 .text-field,
+main .section-3 .text-field {
+  width: 351px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .section-4 .text-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  row-gap: 16px;
+}
+
+
+main .section-2 .text-field {
+  height: 212px;
+}
+
+main .section-3 .text-field {
+  height: 234px;
+}
+
+.section-1 .text-field .title-section {
+  width: 329px;
+  height: 270px;
+}
+
+.section-2 .text-field .title-section {
+  width: 329px;
+  height: 108px;
+}
+
+.section-3 .text-field .title-section {
+  width: 329px;
+  height: 108px;
+}
+
+.section-4 .text-field h2 {
+  width: 608px;
+  height: 80px;
+
+  text-align: center;
+}
+
+.section-4 .text-field .text-section {
+  width: 802px;
+  height: 44px;
+
+  text-align: center;
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23272A;
+}
